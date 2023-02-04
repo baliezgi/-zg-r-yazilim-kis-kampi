@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        th,td,table{
+            border: 1px solid black;
+        }
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Özgür Yazılım Kış Kampı</title>
+</head>
+
+<body>
+    Merhaba Kamp!
+    <h1>HTML,CSS, javascript ile Modern Web Geliştirmeye Giriş</h1>
+    <h2>1)Html </h2>
+    <p>*Html bir markup dilidir.Html öğrenmek için websitesi önerisi: <a href="https://www.w3schools.com/html/" target="_blank">Visit w3schools.com!</a></p>
+    <img src="logo.png" style="width: 42px; height: 42px;" alt="HTML Logo"
+
+<!-- Bu bir yorum satırıdır! -->
+<p>Html web sayfalarının ön yüzünde kullanılır.<br> 
+HTML bir web sayfasının iskeletini oluşturur.<br> 
+Html içerisinde çeşitli tagler vardır.</p>
+<!-- Yukarıdaki gibi alt satırada geçilebilir,aşağıdaki gibi kullanılırsa boşluklar korunur.-->
+
+<pre>
+    <p>
+        Html web sayfalarının ön yüzünde kullanılır.
+        HTML bir web sayfasının iskeletini oluşturur.
+        Html içerisinde çeşitli tagler vardır.</p>
+
+</pre>
+<strong>Bu güçlü bir metindir <br>  </strong>
+<i>Bu italic yazıdır <br> </i>
+<del>Bu üstü çizili yazıdır <br> </del>
+<h2> Bir Websayfası geliştirmek için gerekli teknolojiler</h2>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>javascript</li>
+</ul>
+
+<h2> En sevdiğim diller</h2>
+    <ol>
+        <li>javascript</li>
+        <li>Python</li>
+        <li>C++</li>
+    </ol>
+
+
+<h3>Öğrenci Notları </h3>
+    <table>
+        <tr>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Ders</th>
+            <th>Not</th>
+        </tr>
+
+        <tr>
+            <td>Ezgi</td>
+            <td>Bali</td>
+            <td>Python</td>
+            <td>80</td>
+        </tr>
+
+        <tr>
+            <td>Bilgesu</td>
+            <td>Eşki</td>
+            <td>Python</td>
+            <td>90</td>
+        </tr>
+    </table>
+    <h3>Kamp Başvuru Formu</h3>
+    <form method="post" action="/kayıt">
+        <label for="isim">İsim</label> <br>
+        <input type="text" placeholder="İsim" name="isim"><br>
+
+        <label for="email">Email</label> <br>
+        <input type="email" placeholder="example@example.com" name="email"><br>
+
+        <label for="parola">Parola</label>  <br>
+        <input type="password" placeholder="parola"><br>
+
+        <label for="konaklama">Konaklama</label><br>
+
+        <input type="radio" id="kyk" name="konaklama" value="Kyk" ">
+        <label for="kyk">Kyk</label> 
+
+        <input type="radio" id="kendim ayarlayacağım" name="konaklama" value="Kyk" ">
+        <label for="kendim ayarlayacağım">Kendim ayarlayacağım</label> <br> 
+
+        <label for="fotograf">Profil Fotoğrafı</label> <br> 
+        <input type="file" placeholder="fotograf">
+
+    </form>
+
+
+
+</body>
+
+</html>

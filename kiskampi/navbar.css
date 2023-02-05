@@ -1,0 +1,38 @@
+.ineractive-text:hover{
+    color: blueviolet;
+    margin-left: 15px;
+
+
+}
+
+.navbar{
+    display: inline-block;
+    background-color: aquamarine;
+    position: absolute;
+    top: 0;
+}
+
+.navbar-items{
+    display: inline-block;
+}
+
+ul{ /*all html elements*/
+    list-style: none;
+}
+
+.dropdown{
+    position: absolute;
+    top: 0;
+}
+.dropdown-menu{
+    position: absolute;
+    display: none;
+    background-color: bisque;
+
+
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+

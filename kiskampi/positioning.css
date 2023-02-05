@@ -1,0 +1,40 @@
+*{/*when you start project, add this part */
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgba(169, 9, 227, 0.32);
+    background-color: bisque;
+
+    padding: 15px;
+    margin: 15px auto; /*centered div*/
+
+}
+.inline-box{
+    position: relative;/*absolute| */
+    display: inline-block; /*like inline and block merch
+    --display:none =there is no box 
+    --visibility hidden= there is box but invisibility*/
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgba(169, 9, 227, 0.32);
+    background-color: bisque;
+    margin: 15px;
+    
+}
+
+#positioned-box{
+    position: fixed; 
+    /*fixed= when you scrolling,the box stay fixed.
+    absolute= use top:0px- positions it relative to the parent above.
+    
+    position: absolute;
+    top: calc(50%-150px);
+    left: calc(50%-150px);*/
+    background-color: aqua;
+    /*z-index: 2;  front or back*/
+
+   
+}

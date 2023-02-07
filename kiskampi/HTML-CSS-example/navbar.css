@@ -1,0 +1,45 @@
+.child-of-red .red{ 
+    color: crimson;
+}
+
+
+
+.ineractive-text:hover{
+    color: blueviolet;
+    margin-left: 15px;
+
+
+}
+
+.navbar{
+    background-color: azure;
+    
+}
+
+.navbar-items{
+    display: inline-block;
+}
+
+ul{ /*başında . yoksa all html elements*/
+    list-style: none;
+}
+
+.dropdown{
+    position: relative;
+    
+}
+.dropdown-menu{
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+    /*display: none;*/
+
+    background-color: cadetblue;
+
+
+}
+.dropdown:hover .dropdown-menu{/* isenin ebeveynine hover ediliyorsa ve sende bir dropdown menü ise */
+    /*display: block;*/
+    opacity: 1;
+}
+

@@ -1,0 +1,31 @@
+.box{
+    width: 30%;
+    height: 150px;
+    background-color: blueviolet;
+
+    transition: all 2s;
+
+}
+
+.box:hover{
+    width: 60%;
+    background-color: coral;
+}
+
+.fly-button{
+    background-color: antiquewhite;
+    width: 120px;
+    height: 120px;
+    transition: all 1s;
+
+}
+
+.fly-button:hover{
+    
+    width: 190px;
+    height: 190px;
+
+
+    box-shadow: 5px 5px 10px;
+    transform: translate(0px,-35px);
+}

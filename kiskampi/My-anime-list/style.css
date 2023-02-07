@@ -1,0 +1,22 @@
+body{
+    width: 80%;
+    margin: 2em auto;
+
+}
+
+.nav-menu{
+    border-bottom: 5px solid black;
+
+}
+
+.logo img{
+    width: 35px;
+    height: 35px;
+
+
+}
+.nav-header{
+    font-size: 50px;
+    
+
+}

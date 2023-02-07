@@ -1,0 +1,16 @@
+.flex-container{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item{
+    background-color: bisque;
+    width: 30%;
+    height: 100px;
+
+
+}

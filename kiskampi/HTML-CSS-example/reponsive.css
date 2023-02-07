@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*white-space: unset;
+    letter-spacing: normal;
+    word-spacing: -.43em;*/
+
+}
+.box{
+    display: inline-block;
+    width: 15%;
+    height: 5em;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+@media only screen and (max-width:900px) {
+    .box{
+        width: 40%;
+        background-color: aqua;
+    }
+}
+
+@media only screen and (max-width700px) {
+    .box{
+        width: 50%;
+        background-color: blue;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .box{
+        width: 70%;
+        background-color: black;
+    }
+}

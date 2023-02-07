@@ -1,1 +1,1 @@
-# -zg-r-yazilim-kis-kampi
+# ozgur-yazilim-kis-kampi
